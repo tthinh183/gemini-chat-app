@@ -1,6 +1,7 @@
-package com.example.chat_with_gemini.utils
+package com.example.chat_with_gemini.model
 
 import com.example.chat_with_gemini.helper.callback.ResponseCallback
+import com.example.chat_with_gemini.utils.Constant
 import com.google.ai.client.generativeai.GenerativeModel;
 import com.google.ai.client.generativeai.java.GenerativeModelFutures;
 import com.google.ai.client.generativeai.type.BlockThreshold;

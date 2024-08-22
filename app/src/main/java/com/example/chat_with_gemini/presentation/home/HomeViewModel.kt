@@ -2,12 +2,10 @@ package com.example.chat_with_gemini.presentation.home
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.chat_with_gemini.helper.callback.ResponseCallback
-import com.example.chat_with_gemini.utils.GeminiPro
+import com.example.chat_with_gemini.model.GeminiPro
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

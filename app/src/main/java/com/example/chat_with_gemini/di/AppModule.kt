@@ -1,6 +1,6 @@
 package com.example.chat_with_gemini.di
 
-import com.example.chat_with_gemini.utils.GeminiPro
+import com.example.chat_with_gemini.model.GeminiPro
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
